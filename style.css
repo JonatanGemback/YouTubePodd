@@ -1,7 +1,20 @@
-#facebook{
+#ikoner{
     width:5%;
     position: absolute;
     background-color: white;
-    border-radius: 5%;
-    left: 10%;
+    border-radius: 75%;
+}
+
+.facebook{
+    left:15%;
+}
+.instagram{
+    left: 30%;
+}
+.twitter{
+    left:60%;
+}
+.email{
+    left:75%;
+    border-radius: 50%;
 }
