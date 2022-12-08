@@ -1,20 +1,31 @@
-#ikoner{
+
+
+.facebook{
+    left:15%;
     width:5%;
     position: absolute;
     background-color: white;
     border-radius: 75%;
 }
-
-.facebook{
-    left:15%;
-}
 .instagram{
     left: 30%;
+    width:5%;
+    position: absolute;
+    background-color: white;
+    border-radius: 75%;
 }
 .twitter{
     left:60%;
+    width:5%;
+    position: absolute;
+    background-color: white;
+    border-radius: 75%;
 }
 .email{
     left:75%;
     border-radius: 50%;
+    width:5%;
+    position: absolute;
+    background-color: white;
+    border-radius: 75%;
 }
