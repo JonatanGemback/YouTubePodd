@@ -17,13 +17,13 @@
     <div class="w3-right w3-hide-small">
       <a href="#projects" class="w3-bar-item w3-button">Avsnitt</a>
       <a href="#about" class="w3-bar-item w3-button">Om oss</a>
-      <a href="#contact" class="w3-bar-item w3-button">Kontakta</a>
+      
     </div>
   </div>
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+<header class="w3-display-container w3-content w3-wide" style="max-width:100%;" id="home">
   <img class="w3-image" src="podcast.jpg" alt="Architecture" width="1500" height="800">
   <div class="w3-display-middle w3-margin-top w3-center">
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Tech</b></span> <span class="w3-hide-small w3-text-light-grey">Discussion</span></h1>
@@ -31,7 +31,7 @@
 </header>
 
 <!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
+<div class="w3-content w3-padding" style="max-width:100%">
 
   <!-- Project Section -->
   <div class="w3-container w3-padding-32" id="projects">
@@ -65,7 +65,7 @@
     </div>
   </div>
 <!-- ljudfilen -->
-  <audio controls id="podcastLjud">
+  <audio controls id="podcastLjud" class="w3-quarter">
     <source src="PODCAST.m4a" type="audio/mpeg">
   Your browser does not support the audio element.
   </audio>
@@ -85,46 +85,39 @@
       <h3>Jonatan Gembäck</h3>
       <p class="w3-opacity">YouTube Expert</p>
       <p>Jonatan Gembäck är en expert inom tech-branschen, YouTube och liknande streaming services. Han gästar i senaste och tidigare avsnitt med extremt bra information om hur branscherna påverkar samhället med mera.</p>
-      <p><button class="w3-button w3-black w3-block">Kontakta</button></p>
+      <a href="mailto:jonatan.gemback@elev.ga.ntig.se">
+        <p><button class="w3-button w3-black w3-block">Kontakta</button></p>
+      </a>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="albin.jpeg" alt="Albin" style="width:50%">
       <h3>Albin Andersson</h3>
       <p class="w3-opacity">Co-Host</p>
       <p>Albin Andersson är podcastens co-host tillsammans med Alexander Bötker. Han specialiserar sig själv inom techbranschens historia och hur den har utvecklats genom historien samt utvecklar podcastens inledning oftast med sina kunskaper.</p>
-      <p><button class="w3-button w3-black w3-block">Kontakta</button></p>
+      <a href="mailto:albin.andersson9@elev.ga.ntig.se">
+        <p><button class="w3-button w3-black w3-block">Kontakta</button></p>
+      </a>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="Axelander.jpg" alt="Alexander" style="width:50%">
       <h3>Alexander Bötker</h3>
       <p class="w3-opacity">Diskussions-ledare och Co-Host</p>
       <p>Alexander Bötker är co-host samt diskussions-ledare till podcasten. Dessutom är han den mest kunniga av programmering och har alltid rätt fakta bakom algoritmer och programmingsspråk. Även känd för att vara tillsammans med Noel.</p>
-      <p><button class="w3-button w3-black w3-block">Kontakta</button></p>
+      <a href="mailto:alexander.botker@elev.ga.ntig.se">
+        <p><button class="w3-button w3-black w3-block">Kontakta</button></p>
+      </a>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="noel.jfif" alt="Noel" style="width:50%">
       <h3>Noel Gäredal</h3>
       <p class="w3-opacity">Tech-connosieur</p>
       <p>Noel Gäredal gästar i flera olika avsnitt med sin omåttliga kunskap om samhällspåverkan av tech-världen. Han är av en anledning känd som avsnittens tech-konnässör, just för att han verkligen är en mästare i vad han gör.</p>
-      <p><button class="w3-button w3-black w3-block">Kontakta</button></p>
+      <a href="mailto:noel.garedal@elev.ga.ntig.se">
+        <p><button class="w3-button w3-black w3-block">Kontakta</button></p>
+      </a>
     </div>
   </div>
 
-  <!-- Contact Section -->
-  <div class="w3-container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Kontakta</h3>
-    <p>Kontakta oss vad du vill att vi ska prata om i nästa avsnitt!</p>
-    <form action="/action_page.php" target="_blank">
-      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-      </button>
-    </form>
-  </div>
-  
 <!-- Image of location/map -->
 <div class="w3-container">
   <img src="podcast_inspelning.jpg" class="w3-image" style="width:100%" alt="podcast_inspelning">
