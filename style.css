@@ -1,31 +1,27 @@
 
 
-.facebook{
+#facebook{
     left:15%;
     width:5%;
-    position: absolute;
     background-color: white;
     border-radius: 75%;
 }
-.instagram{
+#instagram{
     left: 30%;
     width:5%;
-    position: absolute;
     background-color: white;
     border-radius: 75%;
 }
-.twitter{
+#twitter{
     left:60%;
     width:5%;
-    position: absolute;
     background-color: white;
     border-radius: 75%;
 }
-.email{
+#email{
     left:75%;
     border-radius: 50%;
     width:5%;
-    position: absolute;
     background-color: white;
     border-radius: 75%;
 }
